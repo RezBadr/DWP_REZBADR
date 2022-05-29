@@ -1,0 +1,39 @@
+.NosServices {
+    background-color: #fff;
+    height: 100%;
+    color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-decoration: none;
+    border: 2px #fff solid;
+    cursor: pointer;
+    transition: .4s linear;
+    position: relative;
+    overflow: hidden;
+}
+
+.NosServices:hover {
+    color: rgb(247, 0, 0);
+    font-size: xx-large;
+}
+
+.NosServices::before {
+    content: "";
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 0%;
+    background: rgba(0, 0, 0, 0.3);
+    color: rgb(255, 255, 255);
+    transition: 0.8s;
+}
+
+.NosServices::before {
+    bottom: 0%;
+}
+
+.NosServices:hover::before {
+    height: 50%;
+}

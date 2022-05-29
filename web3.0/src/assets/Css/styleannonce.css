@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+}
+
+.produit-small-img {
+    height: 92px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+}
